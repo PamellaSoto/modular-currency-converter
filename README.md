@@ -1,16 +1,36 @@
-# React + Vite
+# 💱 Currency Converter
+Currency Converter is a **lightweight React-based project** that allows you to convert values between different currencies in real-time using a reliable exchange rate API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an independent mini-project that is also part of my *WIP project* called **Modular Utils.**
 
-Currently, two official plugins are available:
+All modules can be used **standalone**, but they were designed to also work together inside **Modular Utils as a collection of utilities.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## 🚀 Features
+- Input any amount and convert between currencies.
+- Select a base currency and a target currency.
+- Fetch real-time exchange rates from a trusted API.
+- Validate inputs to prevent empty or invalid submissions.
+- Display the converted value instantly.
+- Friendly messages for errors, missing inputs, or invalid values.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+- [React](https://react.dev/)
+- [Exchange Rate API](https://www.exchangerate-api.com/)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
+- JavaScript (ES6+)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 📂 Other modules from Modular Utils
+- [🧮 Calculator](https://github.com/PamellaSoto/modular-calculator)
+- [📝 Task List](https://github.com/PamellaSoto/modular-task-list)
+- [⭐ Github Favorites](https://github.com/PamellaSoto/modular-github-favorites)
+
+
+## ✅ Checklist
+- [ ] Add a proper UI with styling (TailwindCSS).
+- [ ] Persist latest currencies used with **Local Storage or IndexedDB.**
+- [ ] Prepare component for integration in Modular Utils.
+- [ ] Improve usability (loading state, feedback messages).
+- [ ] Improve accessibility (keyboard shortcuts, ARIA labels).
